@@ -11,7 +11,7 @@ return array(
 	|
 	*/
 
-	'url' => 'http://localhost',
+	'url' => 'http://oni-laravel-test.pagodabox.com',
 
 	/*
 	|--------------------------------------------------------------------------
