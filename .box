@@ -1,0 +1,18 @@
+################################################
+## GENERAL SETTINGS
+################################################
+shared_writable_dirs:
+    - /storage/cache
+    - /storage/sessions
+    - /storage/db
+
+################################################
+## WEB SPECIFIC SETTINGS
+################################################
+document_root: /public
+default_gateway: index.php
+
+################################################
+## PHP SPECIFIC SETTINGS
+################################################
+php_extensions: [mcrypt, fileinfo, mbstring, sqlite, pdo_sqlite]
