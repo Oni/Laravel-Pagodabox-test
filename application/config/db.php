@@ -52,10 +52,10 @@ return array(
 
 		'mysql' => array(
 			'driver'   => 'mysql',
-			'host'     => 'localhost',
-			'database' => 'database',
-			'username' => 'root',
-			'password' => 'password',
+			'host'     => 'localhost:/tmp/mysql/georgette.sock',
+			'database' => 'georgette',
+			'username' => 'tammie',
+			'password' => 'GwTmHhXy',
 			'charset'  => 'utf8',
 		),
 
