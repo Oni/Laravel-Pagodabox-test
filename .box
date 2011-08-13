@@ -15,4 +15,4 @@ default_gateway: index.php
 ################################################
 ## PHP SPECIFIC SETTINGS
 ################################################
-php_extensions: [mcrypt, fileinfo, mbstring, sqlite, pdo_sqlite]
+php_extensions: [mcrypt, fileinfo, mbstring, mysql, pdo_mysql]
