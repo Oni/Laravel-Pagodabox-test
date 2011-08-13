@@ -52,7 +52,7 @@ return array(
 
 		'mysql' => array(
 			'driver'   => 'mysql',
-			'host'     => 'localhost:/tmp/mysql/georgette.sock',
+			'host'     => 'localhost;unix_socket=/tmp/mysql/georgette.sock',
 			'database' => 'georgette',
 			'username' => 'tammie',
 			'password' => 'GwTmHhXy',
