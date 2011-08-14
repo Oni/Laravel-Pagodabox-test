@@ -51,11 +51,10 @@ return array(
 		),
 
 		'mysql' => array(
-			'driver'   => 'mysql',
-			'host'     => 'localhost;unix_socket=/tmp/mysql/georgette.sock',
-			'database' => 'georgette',
-			'username' => 'tammie',
-			'password' => 'GwTmHhXy',
+			'host'     => $_SERVER['db_host'],
+			'database' => $_SERVER['db_name'],
+			'username' => $_SERVER['db_user'],
+			'password' => $_SERVER['db_pass'],
 			'charset'  => 'utf8',
 		),
 
